@@ -18,3 +18,12 @@ info = {
     'default_songs': 102, 'abilities': 25887,
     'validation': 'Native C++ engine/song tests (all 102 bundled songs decoded identically by Python and C++); Python generator/installer tests; PE verification; Wine (Proton Experimental) actual DLL load/render/unload x3 with a simulated Nexus API: clipboard import, key-start and song end, key capture, Toggle Play/Stop, chat blocking, horizontal/vertical/ability-bar windows. Not yet confirmed in a live GW2 session.',
 }
+(dist / 'BUILD-INFO.json').write_text(json.dumps(info, indent=2) + '\n')
+archive = dist / 'dance-dance-rotation-nexus-fedora-0.1.0.zip'
+with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as out:
+    for name in files + ['dist/dance-dance-rotation.dll', 'dist/BUILD-INFO.json']:
+        if name:
+            out.write(root / name, Path('dance-dance-rotation-nexus') / name)
+assets = [dll, archive, dist / 'BUILD-INFO.json']
+(dist / 'SHA256SUMS').write_text(''.join(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.name}\n' for p in assets))
+print(archive)
