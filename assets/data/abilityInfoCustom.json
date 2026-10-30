@@ -1,0 +1,127 @@
+﻿{
+  "42264": {
+    "assetId": 103048,
+    "name": "Air Attunement"
+  },
+  "44857": {
+    "assetId": 102870,
+    "name": "Earth Attunement"
+  },
+  "43470": {
+    "assetId": 103035,
+    "name": "Fire Attunement"
+  },
+  "41166": {
+    "assetId": 102820,
+    "name": "Water Attunement"
+  },
+  "23275": {
+    "icon": "custom/Dodge.png",
+    "name": "Dodge"
+  },
+  "23285": {
+    "icon": "custom/weaponStow.png",
+    "name": "Weapon Stow"
+  },
+
+  
+  "-17": {
+    "assetId": 1770144,
+    "name": "Ambush"
+  },
+  "-16": {
+    "assetId": 102870,
+    "name": "Earth Attunement"
+  },
+  "-15": {
+    "assetId": 102870,
+    "name": "Earth Attunement"
+  },
+  "-14": {
+    "assetId": 102870,
+    "name": "Earth Attunement"
+  },
+  "-13": {
+    "assetId": 103048,
+    "name": "Air Attunement"
+  },
+  "-12": {
+    "assetId": 103048,
+    "name": "Air Attunement"
+  },
+  "-11": {
+    "assetId": 103048,
+    "name": "Air Attunement"
+  },
+  "-10": {
+    "assetId": 102820,
+    "name": "Water Attunement"
+  },
+  "-9": {
+    "assetId": 102820,
+    "name": "Water Attunement"
+  },
+  "-8": {
+    "assetId": 102820,
+    "name": "Water Attunement"
+  },
+  "-7": {
+    "assetId": 103035,
+    "name": "Fire Attunement"
+  },
+  "-6": {
+    "assetId": 103035,
+    "name": "Fire Attunement"
+  },
+  "-5": {
+    "assetId": 103035,
+    "name": "Fire Attunement"
+  },
+  "-2": {
+    "icon": "custom/weaponSwap.png",
+    "name": "Weapon Swap"
+  },
+
+
+  "-1301": {
+    "assetId": 527151,
+    "name": "Note 1"
+  },
+  "-1302": {
+    "assetId": 527152,
+    "name": "Note 2"
+  },
+  "-1303": {
+    "assetId": 527153,
+    "name": "Note 3"
+  },
+  "-1304": {
+    "assetId": 527156,
+    "name": "Note 4"
+  },
+  "-1305": {
+    "assetId": 527155,
+    "name": "Note 5"
+  },
+  "-1306": {
+    "assetId": 527154,
+    "name": "Note 6"
+  },
+  "-1307": {
+    "assetId": 527157,
+    "name": "Note 7"
+  },
+  "-1308": {
+    "assetId": 527158,
+    "name": "Note 8"
+  },
+  "-1309": {
+    "icon": "custom/octaveDecrease.png",
+    "name": "Decrease Octave"
+  },
+  "-1310": {
+    "icon": "custom/octaveIncrease.png",
+    "name": "Increase Octave"
+  }
+
+}
